@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="controller/controller.js" type="module"></script>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="sidebar">
+    <div class="title-card">
+      <span class="title"> Dynamic Data Structures </span>
+      <svg class="title-svg" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#000000"
+        viewBox="0 0 256 256">
+        <rect x="24" y="100" width="56" height="56" rx="8" fill="none" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="4"></rect>
+        <rect x="160" y="40" width="64" height="64" rx="8" fill="none" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="4"></rect>
+        <rect x="160" y="152" width="64" height="64" rx="8" fill="none" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="4"></rect>
+        <line x1="80" y1="128" x2="120" y2="128" fill="none" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="4"></line>
+        <path d="M160,184H144a23.9,23.9,0,0,1-24-24V96a23.9,23.9,0,0,1,24-24h16" fill="none" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="4"></path>
+      </svg>
+    </div>
+    <nav class="navigation-menu">
+      <div class="navigation-buttons">
+        <div class="select-button"><span>Stack</span></div>
+        <div class="select-button"><span>Queue</span></div>
+        <div class="select-button"><span>Stack Linked List</span></div>
+        <div class="select-button"><span>Queue Linked List</span></div>
+        <div class="select-button"><span>Skip List</span></div>
+        <div class="select-button"><span>Binary Search Tree</span></div>
+        <div class="select-button"><span>AVL Tree</span></div>
+        <div class="select-button"><span>Red Black Tree</span></div>
+        <div class="select-button"><span>Splay Tree</span></div>
+        <div class="select-button"><span>Min Heap</span></div>
+      </div>
+    </nav>
+  </section>
+
+  <div class="scale-container">
+    <div class="scale-button plus">
+      <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#000000" viewBox="0 0 256 256">
+        <line x1="84" y1="116" x2="148" y2="116" fill="none" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="16"></line>
+        <line x1="116" y1="84" x2="116" y2="148" fill="none" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="16"></line>
+        <circle cx="116" cy="116" r="84" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16">
+        </circle>
+        <line x1="175.4" y1="175.4" x2="224" y2="224" fill="none" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="16"></line>
+      </svg>
+    </div>
+    <div class="scale-button minus">
+      <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#000000" viewBox="0 0 256 256">
+        <line x1="84" y1="116" x2="148" y2="116" fill="none" " stroke-linecap=" round" stroke-linejoin="round"
+          stroke-width="16"></line>
+        <circle cx="116" cy="116" r="84" fill="none" " stroke-linecap=" round" stroke-linejoin="round"
+          stroke-width="16">
+        </circle>
+        <line x1="175.4" y1="175.4" x2="224" y2="224" fill="none" " stroke-linecap=" round" stroke-linejoin="round"
+          stroke-width="16"></line>
+      </svg>
+    </div>
+  </div>
+
+  </nav>
+  <div class="canvas"></div>
+
+  <div class="media-menu">
+    <div class="media-controls">
+      <input class="media-input" type="text" placeholder="Select a data structure and start typing . . .">
+      <div class="media-button remove hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#000000" viewBox="0 0 256 256">
+          <circle cx="128" cy="128" r="96" fill="none" stroke-miterlimit="10" stroke-width="16">
+          </circle>
+          <line x1="88" y1="128" x2="168" y2="128" fill="none" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="16"></line>
+        </svg>
+        <span>Remove</span>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
